@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B75220EB2568303A000A0188 /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75220EA2568303A000A0188 /* CustomSegmentControl.swift */; };
 		B7A663FA255D1FC70004D888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A663F9255D1FC70004D888 /* AppDelegate.swift */; };
 		B7A663FC255D1FC70004D888 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A663FB255D1FC70004D888 /* SceneDelegate.swift */; };
 		B7A663FE255D1FC70004D888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A663FD255D1FC70004D888 /* ViewController.swift */; };
 		B7A66401255D1FC70004D888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A663FF255D1FC70004D888 /* Main.storyboard */; };
 		B7A66403255D1FC80004D888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A66402255D1FC80004D888 /* Assets.xcassets */; };
 		B7A66406255D1FC80004D888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A66404255D1FC80004D888 /* LaunchScreen.storyboard */; };
+		B7A6640F255D20030004D888 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A6640E255D20030004D888 /* ClockView.swift */; };
+		B7AFFC3B25695ED80084C160 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AFFC3A25695ED80084C160 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B75220EA2568303A000A0188 /* CustomSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
 		B7A663F6255D1FC70004D888 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A663F9255D1FC70004D888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7A663FB255D1FC70004D888 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		B7A66402255D1FC80004D888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A66405255D1FC80004D888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7A66407255D1FC80004D888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A6640E255D20030004D888 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		B7AFFC3A25695ED80084C160 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				B7A663F9255D1FC70004D888 /* AppDelegate.swift */,
 				B7A663FB255D1FC70004D888 /* SceneDelegate.swift */,
+				B7A6640E255D20030004D888 /* ClockView.swift */,
+				B75220EA2568303A000A0188 /* CustomSegmentControl.swift */,
+				B7AFFC3A25695ED80084C160 /* CustomButton.swift */,
 				B7A663FD255D1FC70004D888 /* ViewController.swift */,
 				B7A663FF255D1FC70004D888 /* Main.storyboard */,
 				B7A66402255D1FC80004D888 /* Assets.xcassets */,
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A663FE255D1FC70004D888 /* ViewController.swift in Sources */,
+				B7A6640F255D20030004D888 /* ClockView.swift in Sources */,
+				B7AFFC3B25695ED80084C160 /* CustomButton.swift in Sources */,
 				B7A663FA255D1FC70004D888 /* AppDelegate.swift in Sources */,
 				B7A663FC255D1FC70004D888 /* SceneDelegate.swift in Sources */,
+				B75220EB2568303A000A0188 /* CustomSegmentControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
